@@ -32,11 +32,14 @@ Visual results illustrate the model's detection capabilities:
 ### Figures:
 1. **Class-wise average precision for book damages detected by YOLOv5**
 ![image](https://github.com/user-attachments/assets/ea671900-994e-4b74-8217-385bcb65478d)
-2. **Detection Results**
+
+3. **Detection Results**
 ![image](https://github.com/user-attachments/assets/7cfb87c3-5b6d-4d82-9e4a-aec2364da579)
-3. **Precision-Recall Curve**
+
+5. **Precision-Recall Curve**
 ![image](https://github.com/user-attachments/assets/caf68a72-e8c3-4b8f-8353-628ef624099b)
-4. **Confusion Matrix**
+
+7. **Confusion Matrix**
 ![image](https://github.com/user-attachments/assets/89bc3380-63cd-4664-bc07-a28c8777fe6e)
 
 ## Usage
@@ -48,12 +51,13 @@ To run this project in Google Colab, follow these steps:
 
 ## Sample Commands
 **Training**: The model was trained using the following command:
-'''bash
+```python
 !python train.py --img 415 --batch 16 --epochs 30 --data data.yaml --weights yolov5s.pt --cache
-
+```
 **Detection**: To run detection on a sample image:
-'''bash
+```python
 !python detect.py --source /path/to/image --weights /path/to/weights --conf 0.25
+```
 
 ## Conclusion
 This project successfully demonstrates how deep learning can be used to evaluate book conditions through object detection. YOLOv5's performance on this task highlights its versatility in various classification scenarios.
