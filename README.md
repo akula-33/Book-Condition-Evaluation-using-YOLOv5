@@ -31,7 +31,7 @@ Visual results illustrate the model's detection capabilities:
 - Detection of Wear: Improved identification of minor abrasions, though less precise compared to ripped books.
 ### Figures:
 1. **Class-wise average precision for book damages detected by YOLOv5**
-![image](https://github.com/user-attachments/assets/ea671900-994e-4b74-8217-385bcb65478d)
+<img src="[https://github.com/user-attachments/assets/ea671900-994e-4b74-8217-385bcb65478d]" alt="Ripped Books" width="600"/>
 
 3. **Detection Results**
 ![image](https://github.com/user-attachments/assets/7cfb87c3-5b6d-4d82-9e4a-aec2364da579)
