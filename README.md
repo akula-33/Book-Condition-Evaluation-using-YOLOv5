@@ -31,16 +31,16 @@ Visual results illustrate the model's detection capabilities:
 - Detection of Wear: Improved identification of minor abrasions, though less precise compared to ripped books.
 ### Figures:
 1. **Class-wise average precision for book damages detected by YOLOv5**
-<img src="[https://github.com/user-attachments/assets/ea671900-994e-4b74-8217-385bcb65478d]" alt="Ripped Books" width="600"/>
+<img src="https://github.com/user-attachments/assets/ea671900-994e-4b74-8217-385bcb65478d" width="400" style="display: inline-block;"/>
 
-3. **Detection Results**
-![image](https://github.com/user-attachments/assets/7cfb87c3-5b6d-4d82-9e4a-aec2364da579)
+2. **Detection Results**
+<img src="https://github.com/user-attachments/assets/7cfb87c3-5b6d-4d82-9e4a-aec2364da579" width="400" style="display: inline-block;"/>
 
-5. **Precision-Recall Curve**
-![image](https://github.com/user-attachments/assets/caf68a72-e8c3-4b8f-8353-628ef624099b)
+3. **Precision-Recall Curve**
+<img src="https://github.com/user-attachments/assets/caf68a72-e8c3-4b8f-8353-628ef624099b" width="400" style="display: inline-block;"/>
 
-7. **Confusion Matrix**
-![image](https://github.com/user-attachments/assets/89bc3380-63cd-4664-bc07-a28c8777fe6e)
+4. **Confusion Matrix**
+<img src="https://github.com/user-attachments/assets/89bc3380-63cd-4664-bc07-a28c8777fe6e" width="400" style="display: inline-block;"/>
 
 ## Usage
 To run this project in Google Colab, follow these steps:
