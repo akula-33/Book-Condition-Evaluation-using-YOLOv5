@@ -15,6 +15,9 @@ The dataset used for this project is hosted externally and can be accessed [http
 ## Model Architecture
 The project is built on top of YOLOv5, which runs using PyTorch. The model was trained for 30 epochs with a batch size of 16 on 415x415 resolution images. The fine-tuning was performed using a pre-trained YOLOv5s model, followed by custom weight updates to detect book conditions.
 
+### Workflow
+![WhatsApp Image 2024-06-30 at 18 52 44_a0d72880](https://github.com/user-attachments/assets/df0d40a7-c9c9-4a90-b8c0-fed47a0b7fdc)
+
 ## Results
 ### Quantitative Analysis
 The YOLOv5 model's performance was assessed using mean average precision (mAP) at various Intersection over Union (IoU) thresholds:
@@ -33,11 +36,14 @@ Visual results illustrate the model's detection capabilities:
 1. **Class-wise average precision for book damages detected by YOLOv5**
 <img src="https://github.com/user-attachments/assets/ea671900-994e-4b74-8217-385bcb65478d" width="400" style="display: inline-block;"/>
 
+
 2. **Detection Results**
 <img src="https://github.com/user-attachments/assets/7cfb87c3-5b6d-4d82-9e4a-aec2364da579" width="400" style="display: inline-block;"/>
 
+
 3. **Precision-Recall Curve**
 <img src="https://github.com/user-attachments/assets/caf68a72-e8c3-4b8f-8353-628ef624099b" width="400" style="display: inline-block;"/>
+
 
 4. **Confusion Matrix**
 <img src="https://github.com/user-attachments/assets/89bc3380-63cd-4664-bc07-a28c8777fe6e" width="400" style="display: inline-block;"/>
