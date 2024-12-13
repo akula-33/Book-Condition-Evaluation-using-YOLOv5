@@ -1,4 +1,4 @@
-# Book-Condition-Evaluation-using-YOLOv5
+# Book Condition Evaluation using YOLOv5
 This repository contains a deep learning project focused on evaluating the condition of books by applying object detection using YOLOv5. Developed in Google Colab, the project leverages a custom dataset to train the model, enabling classification of books into various conditions, such as new, used, or damaged.
 
 ## Project Overview
